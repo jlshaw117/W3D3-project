@@ -20,6 +20,6 @@ has_many :enrollments,
 has_many :enrolled_courses, 
   through: :enrollments, 
   source: :course
-  # source: put in name of rb file minus .rb
+  # source: calls the .course method in 'Enrollment' class
 
 end
